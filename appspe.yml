@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+    - hello:
+        Type: AWS::Lambda::Function
+        Properties:
+            Name: "hello"
+            Alias: "staging"
+            CurrentVersion: "2"
+            TargetVersion: "3"
